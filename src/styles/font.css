@@ -1,0 +1,13 @@
+
+ @font-face { font-display: swap; font-style : normal; src: url("assets/fonts/LexendSemiBold.ttf"); font-family : "Lexend"; font-weight : 600;  }
+ @font-face { font-display: swap; font-style : normal; src: url("assets/fonts/MulishRegular.ttf"); font-family : "Mulish"; font-weight : 400;  }
+ @font-face { font-display: swap; font-style : normal; src: url("assets/fonts/MulishBold.ttf"); font-family : "Mulish"; font-weight : 700;  }
+ @font-face { font-display: swap; font-style : normal; src: url("assets/fonts/MulishMedium.ttf"); font-family : "Mulish"; font-weight : 500;  }
+ @font-face { font-display: swap; font-style : normal; src: url("assets/fonts/MulishSemiBold.ttf"); font-family : "Mulish"; font-weight : 600;  }
+ @font-face { font-display: swap; font-style : normal; src: url("assets/fonts/LexendMedium.ttf"); font-family : "Lexend"; font-weight : 500;  }
+ @font-face { font-display: swap; font-style : normal; src: url("assets/fonts/LexendRegular.ttf"); font-family : "Lexend"; font-weight : 400;  }
+ @font-face { font-display: swap; font-style : normal; src: url("assets/fonts/LexendBold.ttf"); font-family : "Lexend"; font-weight : 700;  }
+ @font-face { font-display: swap; font-style : normal; src: url("assets/fonts/InterSemiBold.ttf"); font-family : "Inter"; font-weight : 600;  }
+ @font-face { font-display: swap; font-style : normal; src: url("assets/fonts/InterRegular.ttf"); font-family : "Inter"; font-weight : 400;  }
+ @font-face { font-display: swap; font-style : normal; src: url("assets/fonts/InterMedium.ttf"); font-family : "Inter"; font-weight : 500;  }
+ @font-face { font-display: swap; font-style : normal; src: url("assets/fonts/LexendLight.ttf"); font-family : "Lexend"; font-weight : 300;  }
