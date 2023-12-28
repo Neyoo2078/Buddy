@@ -38,7 +38,7 @@ const Sidebar1 = (props) => {
   useEffect(() => {
     setTimeout(() => {
       setUser(JSON.parse(localStorage.getItem("loggeduser")));
-    }, 200);
+    }, 500);
   }, []);
 
   return (

@@ -7,7 +7,13 @@ import AnimatedRoutes from "components/AnimatedRoutes/AnimatedRoutes";
 
 const ProjectRoutes = () => {
   return (
-    <React.Suspense fallback={<>Loading...</>}>
+    <React.Suspense
+      fallback={
+        <div className="flex justify-center mt-[200px]">
+          <MoonLoader color="#ff8600" />
+        </div>
+      }
+    >
       <Router>
         <ToastContainer limit={1} position="top-center" />
         <div className="bg-gray-100 flex flex-col font-lexend items-center justify-start mx-auto w-full">

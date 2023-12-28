@@ -7,9 +7,12 @@ import { useFormik } from "formik";
 import { LogInvalidate } from "utils/validation";
 import { toast } from "react-toastify";
 import axios from "axios";
+import { useState } from "react";
 
 const LoginScreenactivePage = () => {
   const navigate = useNavigate();
+
+  const [fetching, setfetching] = useState(false);
 
   // Pass the useFormik() hook initial form values and a submit function that will
   // be called when the form is submitted
@@ -37,7 +40,7 @@ const LoginScreenactivePage = () => {
       return;
     }
     try {
-      console.log("clicked");
+      setfetching(true);
       const res = await axios.post(`${BaseUrl}/api/admin/login`, {
         email: formik.values.email,
         password: formik.values.password,
@@ -52,6 +55,7 @@ const LoginScreenactivePage = () => {
       if (error) {
         toast.error(error?.response?.data?.message);
       }
+      setfetching(false);
     }
   };
 
@@ -201,6 +205,7 @@ const LoginScreenactivePage = () => {
                         size="md"
                         variant="fill"
                         onClick={submit}
+                        fetching={fetching}
                       >
                         Login
                       </Button>
