@@ -101,7 +101,7 @@ const Sidebar1 = (props) => {
                 className="text-gray-800 text-lg tracking-[0.36px] w-auto"
                 size="txtLexendMedium18"
               >
-                {User.firstname ? User.firstname : User}
+                {User?.firstname ? User?.firstname : User}
               </Text>
               <Text
                 className="text-gray-600 text-xs tracking-[0.12px] w-auto"
