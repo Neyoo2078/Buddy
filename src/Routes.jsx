@@ -4,6 +4,7 @@ import Sidebar1 from "components/Sidebar1";
 import { ToastContainer, toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 import AnimatedRoutes from "components/AnimatedRoutes/AnimatedRoutes";
+import { MoonLoader } from "react-spinners";
 
 const ProjectRoutes = () => {
   return (
