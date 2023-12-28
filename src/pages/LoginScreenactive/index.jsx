@@ -1,9 +1,8 @@
 import React from "react";
 import { useNavigate } from "react-router-dom";
-import { Button, Img, Input, Text } from "components";
+import { Button, Img, Text } from "components";
 import SignUpScreenActiveDashboardinput1 from "components/SignUpScreenActiveDashboardinput1";
 import SignUpScreenActiveDashboardinput2 from "components/SignUpScreenActiveDashboardinput2";
-import { useEffect, useState } from "react";
 import { useFormik } from "formik";
 import { LogInvalidate } from "utils/validation";
 import { toast } from "react-toastify";
