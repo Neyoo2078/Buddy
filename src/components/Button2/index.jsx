@@ -26,9 +26,10 @@ const sizes = {
   xl: "p-[17px]",
 };
 
-const Button = ({
+const ButtonTwo = ({
   children,
   fetching,
+  handleLogOut,
   className = "",
   leftIcon,
   rightIcon,
@@ -41,6 +42,9 @@ const Button = ({
 }) => {
   return (
     <button
+      onClick={() => {
+        handleLogOut();
+      }}
       className={`${className} ${(shape && shapes[shape]) || ""} ${
         (size && sizes[size]) || ""
       } ${
@@ -58,7 +62,7 @@ const Button = ({
   );
 };
 
-Button.propTypes = {
+ButtonTwo.propTypes = {
   className: PropTypes.string,
   children: PropTypes.node,
   shape: PropTypes.oneOf(["round", "circle"]),
@@ -80,4 +84,4 @@ Button.propTypes = {
   ]),
 };
 
-export { Button };
+export { ButtonTwo };

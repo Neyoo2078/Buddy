@@ -2,6 +2,7 @@ import React from "react";
 import { useLocation, useNavigate } from "react-router-dom";
 import { useState } from "react";
 import { Button, Img, Text } from "components";
+import { ButtonTwo } from "components/Button2";
 import { motion } from "framer-motion";
 import { sideBarMenu } from "utils/sidebar";
 import { useEffect } from "react";
@@ -110,7 +111,7 @@ const Sidebar1 = (props) => {
                 Influencer
               </Text>
             </div>
-            <Button
+            <ButtonTwo
               className="cursor-pointer flex items-center justify-center min-w-[170px]"
               leftIcon={
                 <Img
@@ -123,14 +124,12 @@ const Sidebar1 = (props) => {
               color="orange_600_28"
               size="md"
               variant="fill"
+              handleLogOut={handleLogOut}
             >
-              <div
-                onClick={handleLogOut}
-                className="!text-orange-600 font-lexend font-medium text-left text-sm tracking-[0.28px]"
-              >
+              <div className="!text-orange-600 font-lexend font-medium text-left text-sm tracking-[0.28px]">
                 Logout
               </div>
-            </Button>
+            </ButtonTwo>
           </div>
           <Img
             className="absolute h-[50px] inset-x-[0] mx-auto rounded-[50%] top-[0] w-[50px]"
