@@ -101,12 +101,12 @@ const SignupScreenactivePage = () => {
               Buddy
             </Text>
           </div>
-          <div className="flex flex-col font-mulish items-start justify-start mb-[352px] md:ml-[0] ml-[65px] mt-[126px] w-auto sm:w-full">
+          <div className="flex flex-col font-mulish items-start justify-start sm:mb-[10px] mb-[352px] md:ml-[0] ml-[65px] sm:mt-[70px] mt-[126px] w-auto sm:w-full">
             <div className="flex flex-col md:gap-10 gap-24 items-start justify-start w-auto sm:w-full">
               <div className="flex flex-col gap-[37px] items-start justify-start w-auto sm:w-full">
-                <div className="flex sm:flex-col flex-row gap-4 items-center justify-start w-auto sm:w-full">
+                <div className="flex sm:flex-row flex-row gap-4 items-center justify-start w-auto sm:w-full">
                   <Button
-                    className="flex h-6 items-center justify-center w-6"
+                    className="flex h-6 sm:h-[14px] sm:w-4 items-center justify-center w-6"
                     shape="circle"
                     color="orange_600"
                     size="xs"
@@ -119,15 +119,15 @@ const SignupScreenactivePage = () => {
                     />
                   </Button>
                   <Text
-                    className="leading-[24.00px] max-w-[422px] md:max-w-full text-blue_gray-600 text-lg tracking-[-0.20px]"
+                    className="leading-[24.00px] max-w-[422px] md:max-w-full text-blue_gray-600 sm:text-sm text-lg tracking-[-0.20px]"
                     size="txtMulishRegular18"
                   >
                     Track real-time overview of company’s financial performance.
                   </Text>
                 </div>
-                <div className="flex sm:flex-col flex-row gap-4 items-center justify-start w-auto sm:w-full">
+                <div className="flex sm:flex-row flex-row gap-4 items-center justify-start w-auto sm:w-full">
                   <Button
-                    className="flex h-6 items-center justify-center w-6"
+                    className="flex h-6 sm:h-[14px] sm:w-4 items-center justify-center w-6"
                     shape="circle"
                     color="orange_600"
                     size="xs"
@@ -140,16 +140,16 @@ const SignupScreenactivePage = () => {
                     />
                   </Button>
                   <Text
-                    className="leading-[24.00px] md:max-w-full max-w-md text-blue_gray-600 text-lg tracking-[-0.20px]"
+                    className="leading-[24.00px] max-w-[422px] md:max-w-full text-blue_gray-600 sm:text-sm text-lg tracking-[-0.20px]"
                     size="txtMulishRegular18"
                   >
                     Track created projects budget against actual revenue and
                     expenses.
                   </Text>
                 </div>
-                <div className="flex sm:flex-col flex-row gap-4 items-center justify-start w-auto sm:w-full">
+                <div className="flex sm:flex-row flex-row gap-4 items-center justify-start w-auto sm:w-full">
                   <Button
-                    className="flex h-6 items-center justify-center w-6"
+                    className="flex h-6 sm:h-[14px] sm:w-6 items-center justify-center w-6"
                     shape="circle"
                     color="orange_600"
                     size="xs"
@@ -162,7 +162,7 @@ const SignupScreenactivePage = () => {
                     />
                   </Button>
                   <Text
-                    className="leading-[24.00px] md:max-w-full max-w-md text-blue_gray-600 text-lg tracking-[-0.20px]"
+                    className="leading-[24.00px] max-w-[422px] md:max-w-full text-blue_gray-600 sm:text-sm text-lg tracking-[-0.20px]"
                     size="txtMulishRegular18"
                   >
                     Highlighted reports on budget deficit and surplus,
@@ -184,8 +184,8 @@ const SignupScreenactivePage = () => {
             </div>
           </div>
         </div>
-        <div className="bg-gray-50 flex flex-col font-mulish gap-[39px] items-end justify-end p-[97px] md:px-5 w-[51%] md:w-full">
-          <div className="bg-white-A700 border border-gray-300 border-solid flex flex-col items-start justify-start mr-3.5 mt-[63px] p-[50px] md:px-10 sm:px-5 rounded-lg shadow-bs3 w-auto sm:w-full">
+        <div className="bg-gray-50  flex flex-col font-mulish md:gap-10 gap-[100px] items-center justify-center sm:p-[10px] md:p-[97px] md:px-5 w-[51%] md:w-full">
+          <div className="bg-white-A700 border  border-gray-300 border-solid flex flex-col items-start justify-start sm:mr-0 mr-3.5 sm:mt-[30px] mt-[63px] p-[50px] md:px-10 sm:px-5 rounded-lg shadow-bs3 w-auto sm:w-full">
             <div className="flex flex-col md:gap-10 gap-16 items-start justify-start w-auto sm:w-full">
               <div className="flex flex-col gap-[30px] items-start justify-start w-auto sm:w-full">
                 <div className="flex flex-col gap-4 items-start justify-start w-auto sm:w-full">
@@ -210,30 +210,30 @@ const SignupScreenactivePage = () => {
                       <div className="flex flex-col gap-3 items-start justify-start w-auto sm:w-full">
                         <div className="flex sm:flex-col flex-row  items-start gap-[20px]  w-auto sm:w-full">
                           <SignUpScreenActiveDashboardinput
-                            className="flex flex-col items-start justify-start w-[185px]"
+                            className="flex flex-col items-start justify-start w-[185px]  sm:w-[280px]"
                             label="First Name"
                             formik={formik}
                           />
                           <SignUpScreenActiveDashboardinput3
-                            className="flex flex-col items-start justify-start w-[185px]"
+                            className="flex flex-col items-start justify-start w-[185px]  sm:w-[280px]"
                             label="Last Name"
                             formik={formik}
                           />
                         </div>
                         <div className="flex flex-col items-start justify-start  w-auto sm:w-[380px]">
                           <SignUpScreenActiveDashboardinput1
-                            className="flex flex-col gap-1 items-start justify-start w-auto sm:w-full"
+                            className="flex flex-col gap-1 items-start justify-start w-auto  sm:w-[280px]"
                             progresslabel="12 / 15"
                             formik={formik}
                           />
                           <SignUpScreenActiveDashboardinput2
                             formik={formik}
-                            className="flex flex-col gap-1 items-start justify-start w-auto sm:w-full"
+                            className="flex flex-col gap-1 items-start justify-start w-auto  sm:w-[280px]"
                           />
                         </div>
                       </div>
                       <Button
-                        className="cursor-pointer font-semibold rounded-md text-center text-sm tracking-[-0.08px] w-[389px]"
+                        className="cursor-pointer font-semibold rounded-md text-center text-sm tracking-[-0.08px]  sm:w-[280px] w-[389px]"
                         color="orange_600"
                         size="md"
                         type="button"
@@ -293,23 +293,25 @@ const SignupScreenactivePage = () => {
               </div>
             </div>
           </div>
-          <Button
-            className="cursor-pointer flex items-center justify-center min-w-[118px] mr-[13px] rounded-[25px] shadow-bs4"
-            rightIcon={
-              <Img
-                className="h-[19px] mb-px ml-3"
-                src="images/img_bichat.svg"
-                alt="bi:chat"
-              />
-            }
-            color="orange_600"
-            size="lg"
-            variant="fill"
-          >
-            <div className="!text-white-A700 font-semibold text-left text-sm tracking-[-0.08px]">
-              Get Help
-            </div>
-          </Button>
+          <div className=" sm:w-full w-[65%]  flex justify-end items-center">
+            <Button
+              className="cursor-pointer flex items-center justify-center min-w-[118px] mr-[15px] rounded-[25px] shadow-bs4"
+              rightIcon={
+                <Img
+                  className="h-[19px] mb-px ml-3"
+                  src="images/img_bichat_white_a700.svg"
+                  alt="bi:chat"
+                />
+              }
+              color="orange_600"
+              size="lg"
+              variant="fill"
+            >
+              <div className="!text-white-A700  font-semibold text-left text-sm tracking-[-0.08px]">
+                Get Help
+              </div>
+            </Button>
+          </div>
         </div>
       </div>
     </>
